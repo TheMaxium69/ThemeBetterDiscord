@@ -1,0 +1,55 @@
+/**
+ * @name Max-Theme-One
+ * @author TheMaximeSan
+ * @version 1.0.0
+ * @description Theme Compte Principal
+ * @authorLink http://tyrolium.fr/
+ * @authorId 363366883652796416
+*/
+
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css);
+@import url(https://8xs4qxklp8.execute-api.us-east-2.amazonaws.com/release/gorawgit?giturl=/puckzxz/NotAnotherAnimeTheme/master/css/scsl.css);
+
+:root {
+    /* --background-image: url(https://wallpapercave.com/wp/wp2343899.jpg); */
+    --background-image: url(https://images2.alphacoders.com/100/1008542.jpg);
+    --friends-icon : url(https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2019/12/image22.gif);
+    --friends-icon-position: center center;
+    --friends-icon-zoom: 100%;
+    --main-color: rgb(220, 20, 60); 
+    --main-transparency: rgba(0, 0, 0, 0.56);
+    --unread-server-animation: rainbow;
+    --hover-list-bg-color: rgba(255,255,255, .15);
+    --border-lines-color: hsla(0,0%,100%,.1);
+    --scroll-bar-color: rgba(255,255,255, .15);
+    --font-size: 16px;
+    --selected-text-voice-color: #ffffff;
+    --text-hover-color: #f6f6f7;
+    --voice-hover-color: #ffffff;
+    --unread-text-color: #dcddde;
+    --options-transparency: transparent;
+}
+
+.typeWindows-1za-n7 {
+  position:relative;
+}
+
+.wordmark-2iDDfm {
+  display:flex;
+  align-items:center;
+  padding:0 6px;
+  height:calc(100% + 4px);
+  top:-4px;
+  width:fit-content;
+  font-size:14px;
+  font-weight:600;
+  font-family: 'Discord';
+}
+
+.wordmark-2iDDfm > svg {
+  display:none;
+}
+
+.wordmark-2iDDfm:after {
+  content:'discord, by TheMaximeSan';
+}
